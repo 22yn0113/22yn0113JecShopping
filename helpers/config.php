@@ -1,5 +1,5 @@
 <?php
 	    // DB接続設定
-	    define('DSN', 'sqlsrv:server=10.32.97.1\Web;database=22yn0113');
-	    define('DB_USER', '22yn0113');
-	    define('DB_PASSWORD', '22yn0113');
+	    define('DSN', 'sqlsrv:server=tcp:22yn0113db.database.windows.net,1433;database=22yn0113DB');
+	    define('DB_USER', 'yndb');
+	    define('DB_PASSWORD', 'Pa$$word1234');
